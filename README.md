@@ -1,135 +1,167 @@
 # DSM_PBI_CHALLENGE_Customer_Analytics
 
-## Prompt: Generate a list of the top 10 domains related to customer analytics. For each domain, provide 4 key performance indicators (KPIs) displayed prominently at the top and 4 charts below the kpi metrics offering detailed insight
+## Prompt
+Generate a comprehensive overview of customer analytics across various domains. For each domain, provide a list of the top four key performance indicators (KPIs) that are crucial for measuring performance. Additionally, suggest four types of charts that would best visualize the data related to these KPIs, offering detailed insights into customer behavior and business performance.
 
-# Customer Analytics Domains and KPIs
+### Common Layout for All Dashboards
+- **4 KPI Metrics**: Displayed prominently at the top.
+- **4 Charts**: Below the KPI metrics, offering detailed insights.
 
-## 1. E-commerce
-### Key Performance Indicators (KPIs):
-- Conversion Rate
-- Average Order Value (AOV)
-- Cart Abandonment Rate
-- Customer Lifetime Value (CLV)
 
-### Charts:
-- Sales Trend Over Time
-- Customer Segmentation
-- Cart Abandonment Funnel
-- CLV by Customer Segment
+### Dashboard 1: Retail
 
-## 2. Retail
-### Key Performance Indicators (KPIs):
-- Foot Traffic
-- Average Transaction Value
-- Sales per Square Foot
-- Customer Retention Rate
+#### KPI Metrics
+1. Monthly Sales
+2. Average Transaction Value
+3. Customer Retention Rate
+4. New Customers Acquired
 
-### Charts:
-- Daily Foot Traffic
-- Sales by Product Category
-- Transaction Value Distribution
-- Retention Rate Over Time
+#### Charts
+1. **Monthly Sales Trend:** Line Chart
+2. **Product Category Sales:** Bar Chart
+3. **Customer Demographics:** Pie Chart
+4. **Peak Shopping Hours:** Heatmap
 
-## 3. Banking
-### Key Performance Indicators (KPIs):
-- Net Promoter Score (NPS)
-- Customer Churn Rate
-- Average Revenue per User (ARPU)
-- Customer Satisfaction Score
+---
 
-### Charts:
-- NPS Trend
-- Monthly Churn Rate
-- Revenue Distribution by Product
-- Customer Satisfaction by Branch
+### Dashboard 2: E-commerce
 
-## 4. Telecommunications
-### Key Performance Indicators (KPIs):
-- Customer Churn Rate
-- Average Revenue per User (ARPU)
-- Call Drop Rate
-- Customer Satisfaction Score
+#### KPI Metrics
+1. Conversion Rate
+2. Average Order Value (AOV)
+3. Cart Abandonment Rate
+4. Customer Lifetime Value (CLV)
 
-### Charts:
-- Monthly Churn Analysis
-- ARPU by Service Plan
-- Call Drop Rate Trend
-- Customer Satisfaction Survey Results
+#### Charts
+1. **Conversion Funnel:** Funnel Chart
+2. **AOV by Customer Segment:** Bar Chart
+3. **Cart Abandonment Trends:** Line Chart
+4. **CLV Distribution:** Histogram
 
-## 5. Healthcare
-### Key Performance Indicators (KPIs):
-- Patient Satisfaction Score
-- Readmission Rate
-- Average Wait Time
-- Patient Retention Rate
+---
 
-### Charts:
-- Satisfaction Score Trends
-- Readmission Rates by Department
-- Wait Time Distribution
-- Retention Rate Analysis
+### Dashboard 3: SaaS
 
-## 6. Hospitality
-### Key Performance Indicators (KPIs):
-- Occupancy Rate
-- Average Daily Rate (ADR)
-- Revenue per Available Room (RevPAR)
-- Guest Satisfaction Score
+#### KPI Metrics
+1. Monthly Recurring Revenue (MRR)
+2. Customer Churn Rate
+3. Customer Acquisition Cost (CAC)
+4. Net Promoter Score (NPS)
 
-### Charts:
-- Occupancy Rate Trends
-- ADR Distribution
-- RevPAR by Season
-- Guest Satisfaction by Location
+#### Charts
+1. **MRR Growth:** Line Chart
+2. **Churn Rate Over Time:** Area Chart
+3. **CAC Comparison:** Bar Chart
+4. **NPS Distribution:** Pie Chart
 
-## 7. Travel
-### Key Performance Indicators (KPIs):
-- Booking Conversion Rate
-- Average Booking Value
-- Customer Retention Rate
-- Customer Satisfaction Score
+---
 
-### Charts:
-- Conversion Rate Over Time
-- Booking Value Distribution
-- Retention Rate by Customer Segment
-- Satisfaction Score by Travel Type
+### Dashboard 4: Telecommunications
 
-## 8. SaaS (Software as a Service)
-### Key Performance Indicators (KPIs):
-- Monthly Recurring Revenue (MRR)
-- Customer Churn Rate
-- Customer Lifetime Value (CLV)
-- Net Promoter Score (NPS)
+#### KPI Metrics
+1. Average Revenue per User (ARPU)
+2. Network Downtime
+3. Customer Churn Rate
+4. Customer Satisfaction Score (CSAT)
 
-### Charts:
-- MRR Growth Over Time
-- Churn Rate by Plan
-- CLV by Customer Segment
-- NPS Trends
+#### Charts
+1. **ARPU Trends:** Line Chart
+2. **Network Downtime Events:** Scatter Plot
+3. **Churn Rate by Plan:** Bar Chart
+4. **CSAT Scores:** Pie Chart
 
-## 9. Education
-### Key Performance Indicators (KPIs):
-- Student Enrollment Rate
-- Graduation Rate
-- Student Satisfaction Score
-- Course Completion Rate
+---
 
-### Charts:
-- Enrollment Trends
-- Graduation Rate by Program
-- Satisfaction Score by Course
-- Completion Rate Analysis
+### Dashboard 5: Banking
 
-## 10. Media & Entertainment
-### Key Performance Indicators (KPIs):
-- Audience Reach
-- Engagement Rate
-- Customer Retention Rate
-- Average Revenue per User (ARPU)
+#### KPI Metrics
+1. Net Interest Margin (NIM)
+2. Loan Default Rate
+3. Customer Acquisition Cost (CAC)
+4. Customer Satisfaction Index (CSI)
 
-### Charts:
-- Audience Growth Over Time
-- Engagement by Content Type
-- Retention Rate by Subscription Type
-- ARPU by Content Category
+#### Charts
+1. **NIM Trends:** Line Chart
+2. **Loan Default Rates:** Bar Chart
+3. **CAC by Channel:** Bar Chart
+4. **CSI by Branch:** Heatmap
+
+---
+
+### Dashboard 6: Healthcare
+
+#### KPI Metrics
+1. Patient Satisfaction Score
+2. Average Length of Stay (ALOS)
+3. Readmission Rate
+4. Bed Occupancy Rate
+
+#### Charts
+1. **Patient Satisfaction Over Time:** Line Chart
+2. **ALOS by Department:** Bar Chart
+3. **Readmission Rates:** Histogram
+4. **Bed Occupancy Rates:** Heatmap
+
+---
+
+### Dashboard 7: Education
+
+#### KPI Metrics
+1. Student Enrollment Numbers
+2. Graduation Rate
+3. Average GPA
+4. Student Retention Rate
+
+#### Charts
+1. **Enrollment Trends:** Line Chart
+2. **Graduation Rates:** Bar Chart
+3. **GPA Distribution:** Box Plot
+4. **Retention Rates:** Pie Chart
+
+---
+
+### Dashboard 8: Hospitality
+
+#### KPI Metrics
+1. Occupancy Rate
+2. Average Daily Rate (ADR)
+3. Revenue per Available Room (RevPAR)
+4. Customer Satisfaction Score (CSAT)
+
+#### Charts
+1. **Occupancy Trends:** Line Chart
+2. **ADR by Season:** Bar Chart
+3. **RevPAR Comparison:** Bar Chart
+4. **CSAT Distribution:** Pie Chart
+
+---
+
+### Dashboard 9: Manufacturing
+
+#### KPI Metrics
+1. Production Volume
+2. Defect Rate
+3. Inventory Turnover
+4. Equipment Utilization Rate
+
+#### Charts
+1. **Production Volume Over Time:** Line Chart
+2. **Defect Rate by Product Line:** Bar Chart
+3. **Inventory Turnover Ratio:** Bar Chart
+4. **Equipment Utilization:** Heatmap
+
+---
+
+### Dashboard 10: Real Estate
+
+#### KPI Metrics
+1. Property Listings
+2. Average Sales Price
+3. Days on Market
+4. New Leads Generated
+
+#### Charts
+1. **Listings Over Time:** Line Chart
+2. **Average Sales Price Trends:** Bar Chart
+3. **Days on Market:** Histogram
+4. **New Leads by Source:** Pie Chart
